@@ -19,9 +19,9 @@ end
 def find_the_cheese(queso)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if !queso.include?(cheese_types)
-    return nil
-  else 
+  # if !queso.include?(cheese_types)
+  #   return nil
+  # else 
     queso.find {|food| food.is_a?(cheese_types)}
-  end
+  # end
 end
