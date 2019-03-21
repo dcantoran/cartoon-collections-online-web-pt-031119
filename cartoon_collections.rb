@@ -22,6 +22,6 @@ def find_the_cheese(queso)
   if !queso.include?(cheese_types)
     return nil
   else 
-    queso.find {|food| food.is_a?(cheese_types)
+    queso.find {|food| food.is_a?(cheese_types)}
   end
 end
